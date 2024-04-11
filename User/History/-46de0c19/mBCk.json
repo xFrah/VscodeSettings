@@ -1,0 +1,576 @@
+[
+    {
+        "cmd": "init_printer"
+    },
+    {
+        "cmd": "set_cpi",
+        "params": {
+            "n": 49
+        }
+    },
+    {
+        "cmd": "set_printing_mode",
+        "params": {
+            "n": 1
+        }
+    },
+    {
+        "cmd": "right_char_spacing",
+        "params": [
+            0
+        ]
+    },
+    {
+        "cmd": "set_chars_upside_down",
+        "params": [
+            1
+        ]
+    },
+    {
+        "cmd": "set_left_margin",
+        "params": {
+            "nL": 10,
+            "nH": 0
+        }
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Cod. Commerc:  "
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Cod. Commerc"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "center_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "ARRIVEDERCI E GRAZIE"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Transazione autorizzata"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "IMPORTO EUR"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "totalToPay"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "CVM"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "cvmr"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "IAD"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "iad"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "ARQC"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "ac"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "TVR"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "tvr"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "UN"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "un"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "TrCC"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "TrCC"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "TT"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "tt"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "TCC"
+        ]
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "tcc"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "ATC"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "atc"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "APPL"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "appl_label"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "A. ID"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "aid"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "SCAD"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "****"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "PAN"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "pan"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "AUTH. RESP. CODE"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Authorization Response Code"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "OPER."
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "boh"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "AUT."
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "arc"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "CTLS"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "CCI"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Mod."
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "ops"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "STAN"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "stan"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "TML"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            " Terminal Identifier"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Ora"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "11:03"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Data"
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "11/12/23"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "A. I. I. C."
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Acquirer Id"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "left_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Eserc."
+        ]
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Merchant Identifier"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "center_alignment"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Receipt rows"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "ACQUISTO"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "buffer",
+        "params": [
+            "Acquire Name"
+        ]
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "line_feed"
+    },
+    {
+        "cmd": "total_cut"
+    },
+    {
+        "cmd": "set_chars_upside_down",
+        "params": [
+            0
+        ]
+    }
+]

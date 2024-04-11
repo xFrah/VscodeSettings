@@ -1,0 +1,6 @@
+.pio
+.vscode
+build/
+sdkconfig.featheresp32
+sdkconfig.odfroid_esp32
+sdkconfig.pocket_32

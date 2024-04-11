@@ -1,0 +1,5 @@
+images = []
+for filename in os.listdir("images"):
+    images.append(iio.imread("images/" + filename))
+# make gif from images
+iio.imwrite("kmeans.gif", images, duration=1000, loop=0)

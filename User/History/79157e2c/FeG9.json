@@ -1,0 +1,33 @@
+{
+    "packet_type": "server-stampante",
+    "seq_num": "1",
+    "transaction_id": "1",
+
+    "language":"it",
+    "products":[{
+        "entranceDate": "2023-10-31",
+        "entranceHour":"09:00:00",
+        "siteName": "ANTIQUARIUM E PARCO ARCHEOLOGICO DI CANNE DELLA BATTAGLIA",
+        "productName": "Intero",
+        "qrCode": "abcdefghijklmnopqrstuvwxyz12345",
+        "qty": 1,
+        "price": 10,
+        "validUntil": "2023-10-31 23:59:59",
+        "additionalCode": "abcde",
+        "holderName": "",
+        "printedAt": "2023-10-31 16:01:01"
+        
+    },{
+        "entranceDate": "2023-10-31",
+        "entranceHour":"09:00:00",
+        "siteName": "ANTIQUARIUM E PARCO ARCHEOLOGICO DI CANNE DELLA BATTAGLIA",
+        "productName": "Intero",
+        "qrCode": "abcdefghijklmnopqrstuvwxyz67890",
+        "qty": 1,
+        "price": 10,
+        "validUntil": "2023-10-31 23:59:59",
+        "additionalCode": "fgkijk",
+        "holderName": "",
+        "printedAt": "2023-10-31 16:01:01"
+    }]
+}

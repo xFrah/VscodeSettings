@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/fdimo/Desktop/FirstAidKit-RFID"
+		},
+		{
+			"name": "serial:/COM3",
+			"uri": "serial://com3/"
+		}
+	],
+	"settings": {}
+}

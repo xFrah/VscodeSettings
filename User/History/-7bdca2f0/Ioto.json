@@ -1,0 +1,44 @@
+{
+	"Acea buildings": {
+		"id": 1,
+		"characteristics": {},
+		"children": [
+			{
+				"Building1": {
+					"id": 2,
+					"characteristics": {},
+					"children": [
+						{
+							"Hall": {
+								"id": 3,
+								"characteristics": {},
+								"children": []
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	"Acea buildings 2": {
+		"id": 4,
+		"characteristics": {},
+		"children": [
+			{
+				"Palazzo2": {
+					"id": 5,
+					"characteristics": {},
+					"children": [
+						{
+							"": {
+								"id": 6,
+								"characteristics": {},
+								"children": []
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}

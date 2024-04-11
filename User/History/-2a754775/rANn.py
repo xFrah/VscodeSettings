@@ -1,0 +1,1 @@
+client.get_full_range_aggregate_bars('AMD', '2005-06-28', '2022-06-28')

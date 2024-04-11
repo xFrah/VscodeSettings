@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+n",
+        "sequence":[
+            "workbench.action.files.save",
+            "terminalHere.create",
+            {
+                "command": "workbench.action.terminal.sendSequence",
+                "args": {"text": "pdftex -ini -jobname=\"${fileBasenameNoExtension}\" \"&pdflatex\" mylatexformat.ltx ${fileBasename}\u000D"},
+            }
+        ]
+    },]

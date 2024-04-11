@@ -1,0 +1,24 @@
+{
+    // Loaded Stubs:  esp32-micropython-1.15.0 
+    "python.analysis.autoSearchPath": true,
+    "python.autoComplete.extraPaths": [
+        ".micropy\\FirstAidKit-RFID"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "python.autoComplete.typeshedPaths": [
+        ".micropy\\FirstAidKit-RFID",
+        "typings"
+    ],
+    "python.analysis.typeshedPaths": [
+        ".micropy\\FirstAidKit-RFID",
+        "typings"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.analysis.extraPaths": [
+        ".micropy\\FirstAidKit-RFID"
+    ]
+}

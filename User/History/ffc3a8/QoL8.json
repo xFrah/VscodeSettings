@@ -1,0 +1,6 @@
+{
+    "1": {
+        "source": "rtsp://admin:Space11#@192.168.5.73:1025/11",
+        "inverted": false
+    }
+}

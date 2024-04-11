@@ -1,0 +1,7 @@
+{
+    "mqtt_ip": "5.196.23.212",
+    "mqtt_port": 1883,
+    "update_hours": [1, 2, 3],
+    "badge_update_url": "http://5.196.23.212/get_kit",
+    "badge_update_timeout": 15
+}

@@ -1,0 +1,11 @@
+{
+    "pos_port": "COM8",
+    "printer_port": "/dev/ttyUSB0",
+    "payment_init_retries": 10,
+    "mqtt_host": "34.154.15.151",
+    "mqtt_port": 1883,
+    "mqtt_topic": "device/gioia-del-colle",
+    "mqtt_username": "aditus",
+    "mqtt_password": "Aditus2023!",
+    "terminal_id": "92541182"
+}

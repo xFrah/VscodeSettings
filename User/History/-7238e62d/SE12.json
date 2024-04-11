@@ -1,0 +1,547 @@
+{
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "editor.inlineSuggest.enabled": true,
+    "workbench.iconTheme": "icons",
+    "workbench.colorTheme": "One Dark Pro Mix",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "variable.parameter, variable.language, variable.parameter.function.language.python",
+                "settings": {
+                    "foreground": "#ABB2BF",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control.flow",
+                    "keyword.control.import",
+                    "keyword.operator.logical"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "constant, storage.type.function, storage.type.class",
+                "settings": {
+                    "foreground": "#C678DD",
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.readwrite",
+                    "entity.name.namespace",
+                    "constant.other.caps",
+                ],
+                "settings": {
+                    "foreground": "#ABB2BF",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type.class",
+                    "meta.function-call.generic",
+                    "punctuation.separator.colon",
+                    "keyword.operator.assignment",
+                    "keyword.operator.comparison",
+                    "keyword.operator.arithmetic",
+                    "keyword.operator.unpacking.arguments"
+                ],
+                "settings": {
+                    "foreground": "#61afef"
+                }
+            },
+            {
+                "scope": "variable.parameter.function-call",
+                "settings": {
+                    "foreground": "#aa4926"
+                }
+            },
+            {
+                "scope": "support.function.builtin, support.type.python, support.type",
+                "settings": {
+                    "foreground": "#8888c6"
+                }
+            },
+            {
+                "scope": "comment.line.number-sign, punctuation.definition.comment",
+                "settings": {
+                    "foreground": "#5c6370"
+                }
+            },
+            {
+                "scope": "storage",
+                "settings": {
+                    "foreground": "#98C379"
+                }
+            },
+            {
+                "scope": "variable.language.special.self, variable.parameter.function.language.special.self.python, variable.parameter.function.language.special.self",
+                "settings": {
+                    "foreground": "#94558d",
+                }
+            },
+            {
+                "scope": "support.function.magic",
+                "settings": {
+                    "foreground": "#b200b2",
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#e8ba36",
+        "editorBracketHighlight.foreground2": "#48a756",
+        "editorBracketHighlight.foreground3": "#309ef3",
+        "editorBracketHighlight.foreground4": "#445fba",
+        "editorBracketHighlight.foreground5": "#1a9286",
+    },
+    "editor.lineHeight": 1.6,
+    "editor.fontFamily": "'Jetbrains Mono'",
+    "editor.fontSize": 13.5,
+    "editor.fontLigatures": true,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": false,
+    },
+    "git.enableSmartCommit": true,
+    // change black formatter max line size to 119
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "140",
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportGeneralTypeIssues": "warning",
+    },
+    "python.linting.pycodestyleCategorySeverity.W": "Hint",
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=160",
+        "--ignore=E203"
+    ],
+    "python.linting.pycodestyleCategorySeverity.E": "Hint",
+    "files.autoSave": "afterDelay",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true
+    },
+    "python.formatting.provider": "black",
+    "python.terminal.activateEnvironment": false,
+    "indentOnPaste.endingBlocks": [
+        "}",
+        "]",
+        ">",
+        "</",
+        "<?end",
+        "<?phpend",
+        "<?else",
+        "<?phpelse"
+    ],
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "manual",
+    "editor.minimap.enabled": false,
+    "pymakr.devices.configs": {
+        "54F7016308": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": "/",
+            "adapterOptions": {}
+        },
+        "48f8d037534fea118980898b7d77156c": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": "/",
+            "adapterOptions": {}
+        },
+        "5687046848": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "568B004401": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": "/",
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS0": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS1": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS10": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS11": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS12": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS13": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS14": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS15": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS16": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS17": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS18": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS19": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS2": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS20": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS21": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS22": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS23": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS24": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS25": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS26": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS27": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS28": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS29": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS3": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS30": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS31": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS4": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS5": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS6": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS7": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS8": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS9": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "5&38f0b0b&0&1": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        }
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Attach, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 0, AccessModifierOffset: -4, NamespaceIndentation: All, FixNamespaceComments: false }",
+    "pymakr.misc.notifications": {
+        "USB-Enhanced-SERIAL CH9102 (COM3) / unknown seems to be busy. Do you wish restart it in safe mode": "Don't show again",
+        "USB-Enhanced-SERIAL CH9102 (COM6) / unknown seems to be busy. Do you wish restart it in safe mode": "Don't show again"
+    },
+    "dart.flutterSdkPath": "C:\\Users\\fdimo\\FlutterSDK\\flutter",
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "sklearn",
+            "depth": 2
+        },
+        {
+            "name": "matplotlib",
+            "depth": 2
+        },
+        {
+            "name": "scipy",
+            "depth": 2
+        },
+        {
+            "name": "django",
+            "depth": 2
+        },
+        {
+            "name": "flask",
+            "depth": 2
+        },
+        {
+            "name": "fastapi",
+            "depth": 2
+        }
+    ],
+    "python.analysis.extraPaths": [
+        "C:\\Users\\fdimo\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages"
+    ],
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+    "[c]": {
+        "editor.pasteAs.enabled": false
+     },
+    "redhat.telemetry.enabled": false,
+    "github.copilot.advanced": {
+        
+    },
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "terminal.integrated.scrollback": 10000,
+    "remote.SSH.remotePlatform": {
+        "192.168.1.119": "linux",
+        "192.168.158.190": "linux"
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.automaticReconfigure": false,
+    "debug.onTaskErrors": "abort",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "cmake.configureOnEdit": false,
+    "black-formatter.args": [
+        "--line-length=120"
+    ],
+}

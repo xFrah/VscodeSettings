@@ -1,0 +1,2 @@
+# create normal curve
+X 

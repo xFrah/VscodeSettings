@@ -1,0 +1,19 @@
+{
+    "name": "Francesco Di Monaco",
+    "3d_model": "example_link",
+    "2d_model": "exmaple_link",
+    "gps_location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "altitude": 100
+    },
+    "env_location": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "characteristics": {
+        "status": "in pausa",
+        "battery": 100
+    }
+}

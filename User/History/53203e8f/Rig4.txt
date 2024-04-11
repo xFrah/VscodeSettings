@@ -1,0 +1,41 @@
+async def receiver(self):
+    data_buffer = bytearray()
+    headers, ends = [], []
+    while True:
+        await asyncio.sleep(0.1)
+        res = await self.sreader.read()
+        if res != b"":
+            data_buffer += res
+            headers_t, ends_t = await get_all_headers_and_ends(res)
+
+            headers += headers_t
+            ends += ends_t
+        if not ends:
+            continue
+
+        got_one = False
+
+        # check if the ends have a corresponding header, if so, add to packets else remove the ends
+        for end in ends:
+            for header in headers:
+                if end > header:
+                    # check if packet is valid
+                    packet = data_buffer[header:end]
+                    if validate_packet(packet):
+                        self.packets.append(packet)
+                        got_one = True
+                        break
+            if got_one:
+                break
+
+        if not got_one:
+            ends = []
+        else:
+            data_buffer = data_buffer[end + 1 :]
+            # remove all headers and ends that are before the valid end
+            # offset all headers and ends by the amount of bytes removed
+            headers = [x - end - 1 for x in headers if x > end]
+            ends = [x - end - 1 for x in ends if x > end]
+
+        # TODO: the data buffer may grow indefinitely, we need to set a limit to the packet size
+        # TODO: we got a problem with indexes i think

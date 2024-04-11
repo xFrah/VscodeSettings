@@ -1,0 +1,10 @@
+dataset/out
+EURUSD_M1_env.csv
+__pycache__/
+PPO_preTrained/trainingV1/PPO_trainingV1_0_0.pth
+render_logs/
+wip_render_logs/
+Stock_2023-08-09_00-12-00-OHMYFUCKINGGOD.pkl
+dataset.pickle
+dataset.pkl
+dataset/EURUSD.pkl

@@ -1,0 +1,21 @@
+// Place your key bindings in this file to override the defaults
+[
+{
+    "key": "alt+n",
+    "command": "extension.multiCommand.execute",
+    "args": {
+        "sequence": [
+        "workbench.action.terminal.new",
+        {
+            "command": "workbench.action.terminal.sendSequence",
+            "args": {"text": "kernprof -l ${file}\u000D"}
+        },
+        {
+            "command": "workbench.action.terminal.sendSequence",
+            "args": {"text": "python -m line_profiler ${file}.lprof\u000D"}
+        }
+        ],
+    },
+    "when": "editorTextFocus"
+    },
+]

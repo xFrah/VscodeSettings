@@ -1,0 +1,8 @@
+/.venv
+/__pycache__
+/paolo.py
+/map.html
+/mav.parm
+/mav.tlog
+/mav.tlog.raw
+/.venv38

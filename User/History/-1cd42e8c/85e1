@@ -1,0 +1,9 @@
+/CASSONETTI
+/CASSONETTI2
+/PIAZZOLA
+/foto
+/CACHE
+__pycache__
+/yolo-Weights/transformerocr.pth
+Sedili.mp4
+vgg16bn_iade_4_deeplabv3_PCD.pth

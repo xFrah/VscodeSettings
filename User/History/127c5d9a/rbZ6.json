@@ -1,0 +1,25 @@
+{
+    "packet_type": "server-pos",
+    "language":"it",
+    "date": "2023-10-31",
+    "hour":"09:00:00",
+    "products":[{
+        "id": 250,
+        "price": 10,
+        "qty": 2
+    },{
+        "id": 240,
+        "price": 5,
+        "qty": 1
+    }],
+    "tvm_machine": {
+        "id": 2,
+        "site_id": 18,
+        "code":"022531727",
+        "localMachineIp":"0.0.0.0",
+        "term_id":"92541182",
+        "printer_id":"KUBE200"
+    },
+    "cart_id": 1080,
+    "totalToPay": 15
+}

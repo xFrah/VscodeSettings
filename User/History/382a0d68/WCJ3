@@ -1,0 +1,7 @@
+/.venv
+/.vscode
+/video.mp4
+/best.pt
+detect.py
+/PeopleFlow.mp4
+/__pycache__

@@ -1,0 +1,12 @@
+{
+    "pos_port": "COM8",
+    "printer_port": "/dev/ttyUSB0",
+    "payment_init_retries": 10,
+    "mqtt_host": "mqtt.aditusculture.com",
+    "mqtt_port": 1883,
+    "payment_timeout": 100,
+    "mqtt_topic": "device/123",
+    "mqtt_username": "aditus",
+    "mqtt_password": "Aditus2023!",
+    "terminal_id": "925411880"
+}

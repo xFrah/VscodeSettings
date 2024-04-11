@@ -1,0 +1,1 @@
+Remember to kill the assert in C:\Users\user\FlutterSDK\flutter\packages\flutter\lib\src\animation\animation_controller.dart at line 822.

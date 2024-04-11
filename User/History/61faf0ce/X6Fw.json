@@ -1,0 +1,7 @@
+{
+    "cmake.configureOnOpen": true,
+    "files.associations": {
+        "stdio.h": "c",
+        "esp_netif_sntp.h": "c"
+    }
+}

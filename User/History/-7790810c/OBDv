@@ -1,0 +1,9 @@
+import os
+import imageio.v3 as iio
+
+
+images = []
+for filename in os.listdir("asd2"):
+    images.append(iio.imread("asd2/" + filename))
+# make gif from images
+iio.imwrite("kmeans2.gif", images, duration=1000, loop=0)

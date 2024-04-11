@@ -1,0 +1,10 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+      "key": "ctrl+k ctrl+l",
+      "command": "workbench.action.terminal.sendSequence",
+      "args": {
+        "text": "kernprof -l ${file}\u000D"
+      }
+    }
+]

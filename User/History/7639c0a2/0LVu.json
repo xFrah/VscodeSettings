@@ -1,0 +1,7 @@
+{
+    "mqtt_host": "homeassistant.local",
+    "mqtt_port": 1883,
+    "mqtt_user": "mqtt_user",
+    "mqtt_password": "Beam2020",
+    "mqtt_keepalive": 100
+}
