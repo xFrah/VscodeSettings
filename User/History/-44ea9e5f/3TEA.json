@@ -1,5 +1,0 @@
-{
-    "pos_port": "/dev/ttyACM0",
-    "printer_port": "COM5",
-    "payment_init_retries": 10
-}

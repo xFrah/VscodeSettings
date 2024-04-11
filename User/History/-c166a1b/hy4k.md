@@ -1,1 +1,0 @@
-Scarica il modello:

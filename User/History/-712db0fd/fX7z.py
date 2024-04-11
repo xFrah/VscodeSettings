@@ -1,3 +1,0 @@
-import pickle
-
-# load model

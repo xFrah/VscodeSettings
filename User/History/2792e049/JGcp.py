@@ -1,1 +1,0 @@
-SSID, PASSWORD = "TIM-23398578", "axf6gH4aTcbrq3ksMeCTqngJ"

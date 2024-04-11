@@ -1,5 +1,0 @@
-.pio
-.vscode
-/build
-/include
-sdkconfig.*

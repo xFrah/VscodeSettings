@@ -1,7 +1,0 @@
-{
-    "packet_type": "pos-server",
-    "success": true,
-    "data": {
-        "cart_id": 1080
-    }
-}

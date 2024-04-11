@@ -1,2 +1,0 @@
-# create normal curve
-X 

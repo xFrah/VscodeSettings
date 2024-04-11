@@ -1,1 +1,0 @@
-/mnt/c/users/fdimo/desktop/rknn_model_zoo/examples/yolov8/python
